@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+.holder-title{
+    border: 1px solid rgb(193, 190, 190);
+    background-color:  rgb(235, 235, 235);
+    margin-bottom: 1rem;
+    color: #429488;
+    padding-left: 1rem;
+    
+}
+
+div img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: 1px solid rgb(193, 190, 190);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.image-holder{
+    width: 90%;
+    border: 1px solid rgb(193, 190, 190);
+    display: block;
+    margin: auto;
+
+
+}
+.image-holder p{
+    padding-left: 2.5rem;
+  
+}
+.empty-holder{
+    background-color:  rgb(235, 235, 235);
+    border: 1px solid rgb(193, 190, 190);
+    height: 2rem;
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+aside{
+    padding: 0;
+}
+
+aside img{
+    margin-bottom: 1px;
+}
+
+nav{
+    margin-bottom: 1rem;
+}
+
+.name-title{
+    display: block;
+    text-align: center;
+    color: #429488;
+}
+
+@media only screen and (max-width: 700px) {
+   
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    main{
+        width: 100%;
+        max-height: 100%;
+    }
+   
+}
+
+table,td,th {
+    width: 1000px;
+    border-collapse: collapse;
+    color: #000000;
+    text-align: center;
+    margin: 1rem;
+  }
+
+   tr:nth-child(odd) {
+    background-color: rgb(214, 214, 214);
+  }
