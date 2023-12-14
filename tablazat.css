@@ -1,34 +1,72 @@
 *{
     box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body{
+    background-color: #ffffff;
+}
+
+main{
+    background-color: #ffffff;
+    width: 90%;
+    max-height: 100%;
+    margin: auto;
+}
+header{
+    height: 3rem;
+    
+}
+header h1{
+    color: #429488;
+}
+
+nav {
+    background-color: #009688;
+    height: 10%;
+    display: grid;
+    
+}
+nav li{
+    display:inline;
+    padding-right: 15px;
+    
 }
 
 
-
+nav ul li,a{
+    color: #a8d8d3;
+    text-decoration: none;
+    list-style: none;
+}
 
 .container{
     display: grid;
-    grid-template-columns: 33% 34% 33%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-aside{
-    padding: 0;
+    grid-template-columns: 70% 30%;
+    padding-bottom: 1rem;
 }
 
 aside img{
-    margin-bottom: 1px;
-}
-
-nav{
-    margin-bottom: 1rem;
-}
-
-.name-title{
+    width: 80%;
+    margin: auto;
     display: block;
-    text-align: center;
-    color: #429488;
+    margin: auto;
+    border: 1px solid rgb(174, 172, 172);
+    padding: 6px;
+    border-radius: 5px;
+    
 }
+
+aside{
+    padding-top: 1rem;
+}
+
+.container p{
+    text-align: center;
+    color: #009688;
+}
+
+
 
 @media only screen and (max-width: 700px) {
    
@@ -43,14 +81,21 @@ nav{
    
 }
 
-table,td,th {
-    width: 1000px;
+
+table,td {
     border-collapse: collapse;
     color: #000000;
     text-align: center;
     margin: 1rem;
+    height: 30%;
+  }
+  th{
+    border-bottom: 3px solid #000000;
   }
 
-   tr:nth-child(odd) {
+   tr:nth-child(even) {
     background-color: rgb(214, 214, 214);
   }
+
+
+  
