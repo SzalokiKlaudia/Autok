@@ -96,8 +96,8 @@ article li{
         width: 100%;
         max-height: 100%;
     }
-    nav{
+     nav{
         height: 4rem;
         display: grid;
-    }
+     }
 }
